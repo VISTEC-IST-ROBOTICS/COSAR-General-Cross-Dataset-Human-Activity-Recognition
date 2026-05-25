@@ -1,0 +1,19 @@
+# Auto-detect
+* text=auto
+
+# Python
+*.py    text eol=lf diff=python
+
+# Docs
+*.md    text eol=lf
+*.yml   text eol=lf
+*.txt   text eol=lf
+
+# ML Model files
+*.pt    binary
+*.pth   binary
+*.pkl   binary
+*.npy   binary
+*.npz   binary
+*.h5    binary
+*.hdf5  binary

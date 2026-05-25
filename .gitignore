@@ -1,0 +1,31 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ML & Data
+trained_model/
+results/
+
+# Logs & Experiment Tracking
+*.log
+wandb/
+runs/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
